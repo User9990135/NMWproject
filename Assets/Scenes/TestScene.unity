@@ -3798,7 +3798,7 @@ Transform:
   - {fileID: 1041115462}
   - {fileID: 212705957}
   - {fileID: 909551157}
-  - {fileID: 1708846142}
+  - {fileID: 1709036239}
   - {fileID: 1686815612}
   - {fileID: 1342090212}
   - {fileID: 1513169356}
@@ -4823,67 +4823,10 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0.2
   m_ShadowAngle: 0
---- !u!1001 &1708846141
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1346918612}
-    m_Modifications:
-    - target: {fileID: 125360, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_Name
-      value: ElectroPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5204749
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5204751
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5204751
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.2520003
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.3755
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.7589997
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.00000008940697
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071067
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.000000029802322
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
---- !u!4 &1708846142 stripped
+--- !u!4 &1709036239 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-  m_PrefabInstance: {fileID: 1708846141}
+  m_CorrespondingSourceObject: {fileID: 6630584621344175339, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+  m_PrefabInstance: {fileID: 6630584621970941476}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1712934456
 GameObject:
@@ -5989,3 +5932,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ec89eaad22bce364eabcdae8f401ca41, type: 3}
   m_PrefabInstance: {fileID: 2104728147}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6630584621970941476
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1346918612}
+    m_Modifications:
+    - target: {fileID: 6630584621344175339, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630584621344175339, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.2520003
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630584621344175339, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3755
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630584621344175339, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.7589997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630584621344175339, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630584621344175339, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630584621344175339, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630584621344175339, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630584621344175339, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630584621344175339, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630584621344175339, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630584621344351145, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
+      propertyPath: m_Name
+      value: ElectroPanel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af73a416f77a6c74b909fef690a7963d, type: 3}
