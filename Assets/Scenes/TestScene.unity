@@ -3767,7 +3767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1346918612}
   m_Layer: 0
-  m_Name: School_map
+  m_Name: Host_map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
