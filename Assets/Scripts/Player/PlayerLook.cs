@@ -29,7 +29,7 @@ public class PlayerLook : MonoBehaviour
         {
             m_cursorIsLocked = true;
         }
-
+       
         if (m_cursorIsLocked)
         {
             Cursor.lockState = CursorLockMode.Locked;
@@ -78,4 +78,7 @@ public class PlayerLook : MonoBehaviour
         eulerRotation.x = value;
         transform.eulerAngles = eulerRotation;
     }
+
+
+
 }
